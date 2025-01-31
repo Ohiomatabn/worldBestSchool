@@ -23,7 +23,7 @@ body{
 }
 
 .container{
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 
@@ -46,11 +46,22 @@ a{
   justify-content: space-between;
 }
 
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.divider{
+  position: relative;
+}
+
 /*styles for the nabar*/
 .navbar{
   background-color: var(--primary-color);
   color: var(--white);
   padding: 10px 0;
+  z-index: 10;
 }
 
 .navbar p{
@@ -60,10 +71,14 @@ a{
 /*Sidebar*/
 .sidebar{
   background-color: var(--dark-grey);
+  position: fixed;
+  top: 0;
+  bottom: 0;
   width: 250px;
-  height: 100vh;
-  overflow: scroll;
+  overflow-y: scroll;
   scrollbar-width: none;
+  scroll-behavior: smooth;
+  z-index: -1;
 }
 
 .sidebar ul li{
@@ -75,7 +90,7 @@ a{
 .profile{
   display: flex;
   align-items: center;
-  padding: 35px 10px;
+  padding: 57px 10px;
   color: var(--white);
 }
 
@@ -111,4 +126,45 @@ ul li a .fa{
 .active{
   background-color: var(--black);
   border-left: 3px solid green;
+}
+
+/*Styles for the main content*/
+main{
+  margin-left: 250px;
+}
+
+/*Header*/
+.header{
+  background-color: var(--white);
+  padding: 35px 36px;
+}
+
+.header h1{
+  font-size: 2rem;
+}
+
+.header span, .header .fa{
+  font-size: 1.4rem;
+}
+
+/*Main Content*/
+.main-content{
+  margin-top: 50px;
+}
+.card{
+  width: 250px;
+  height: 120px;
+  background-color: var(--white);
+  text-align: center;
+  padding: 20px;
+}
+
+.card img{
+  width: 50px;
+  padding-top: 10px;
+}
+
+.card h3{
+  font-size: 1.3rem;
+  color: var(--primary-color);
 }
