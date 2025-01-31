@@ -1,25 +1,33 @@
 export const dashboard = [{
   name: 'My Profile',
-  image: 'my_profile.png'
+  image: 'my_profile.png',
+  url: '#'
 },{
   name: 'Fee Allocation',
-  image: 'naira.png'
+  image: 'naira.png',
+    url: '#'
 },{
   name: 'Fees Payment',
-  image: 'school_fees.png'
+  image: 'school_fees.png',
+    url: '#'
 },{
   name: 'Outstanding Bills',
-  image: 'debt.png'
+  image: 'debt.png',
+    url: '#'
 },{
   name: 'Result',
-  image: 'result.png'
+  image: 'result.png',
+    url: '../HTML/result.html'
 },{
   name: 'Staffs',
-  image: 'staffs.png'
+  image: 'staffs.png',
+  url: '#'
 },{
   name: 'Transfer',
-  image: 'transfer.png'
+  image: 'transfer.png',
+  url: '#'
 },{
   name: 'Reset Password',
-  image: 'password.png'
+  image: 'password.png',
+  url: '#'
 }];
