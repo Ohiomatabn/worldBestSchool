@@ -1,0 +1,114 @@
+/*Global Styles*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #278883;
+  --white: #fff;
+  --black: #1c2b2d;;
+  --grey: #eee;
+  --dark-grey: #383a3d;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  background-color:var(--grey);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+ul{
+  list-style: none;
+}
+
+h1{
+  font-size: 1.7rem;
+}
+
+a{
+  text-decoration: none;
+  color: var(--white);
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*styles for the nabar*/
+.navbar{
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 10px 0;
+}
+
+.navbar p{
+  font-size: 1.5rem;
+}
+
+/*Sidebar*/
+.sidebar{
+  background-color: var(--dark-grey);
+  width: 250px;
+  height: 100vh;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.sidebar ul li{
+  padding: 10px;
+}
+
+/* Styles for the profile image nested in sidebar*/
+
+.profile{
+  display: flex;
+  align-items: center;
+  padding: 35px 10px;
+  color: var(--white);
+}
+
+.profile-img img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name{
+  padding: 10px;
+}
+
+.name h4{
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.name h6{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+ul li a, ul li a .fa{
+  font-size: 1.3rem;
+}
+
+ul li a .fa{
+  padding-right: 10px;
+}
+
+.active{
+  background-color: var(--black);
+  border-left: 3px solid green;
+}
