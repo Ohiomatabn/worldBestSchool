@@ -12,7 +12,7 @@ export const dashboard = [{
   image: 'debt.png'
 },{
   name: 'Result',
-  image: 'staffs.png'
+  image: 'result.png'
 },{
   name: 'Staffs',
   image: 'staffs.png'
