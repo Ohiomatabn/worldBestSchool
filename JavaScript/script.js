@@ -6,10 +6,12 @@ let dashboardHTml = '';
 
 dashboard.forEach((dashboard) => {
   dashboardHTml += `
+    <a href="${dashboard.url}"
       <div class="card">
         <h3>${dashboard.name}</h3>
         <img src="Icons/${dashboard.image}" alt="MY Profile" />
       </div>
+    </a>
   `
 });
 
