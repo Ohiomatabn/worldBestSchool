@@ -16,3 +16,12 @@ dashboard.forEach((dashboard) => {
 });
 
 document.querySelector('.js-dashboard-container').innerHTML = dashboardHTml;
+
+//Toggle for the side bar
+document.querySelector('.js-show').addEventListener('click', ()=>{
+  document.getElementById('js-sidebar').style.marginLeft = 0;
+});
+
+document.querySelector('.js-close').addEventListener('click', () =>{
+  document.getElementById('js-sidebar').style.marginLeft = '-250px'
+})
