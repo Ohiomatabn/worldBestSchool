@@ -414,13 +414,14 @@ function showResult (){
             </div>
           </div>
     `
-  } else{
-    resultHTML = 'Invalid Parameter';
   }
 
-
-  //updating the DOM
-  document.querySelector('.result').innerHTML = resultHTML;
+  if(resultHTML){
+    //updating the DOM
+    document.querySelector('.result').innerHTML = resultHTML;
+  } else{
+    document.querySelector('.error').innerHTML = 'Invalid Credentials'
+  }
 }
 
 
