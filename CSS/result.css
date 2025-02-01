@@ -19,6 +19,22 @@ input:focus{
   box-shadow: 0 0 30px rgba(39, 136, 131, 0.50);
 }
 
+select{
+  display: inline-block;
+  clear: both;
+  width: 49.7%;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid var(--black);
+  border-radius: 5px;
+  outline: none;
+}
+
+select:focus{
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 30px rgba(39, 136, 131, 0.50);
+}
+
 button{
   background-color: var(--primary-color);
   color: var(--white);
@@ -37,4 +53,64 @@ button:hover{
   background-color: var(--white);
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
+}
+
+/*Styles for the result*/
+.result{
+  clear: both;
+  margin-top: 100px;
+}
+
+.border{
+  border: 1px solid;
+  padding: 20px;
+}
+
+.school-name h2{
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.student-details h2{
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.student-details h5{
+  font-size: 1.3rem;
+  padding: 5px 10px;
+}
+
+img.passport{
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  padding-top: 20px;
+}
+
+/*styles for the student result*/
+table{
+  width: 100%;
+  overflow: scroll;
+}
+
+th{
+  text-align: start;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+td{
+  font-size: 1.3rem;
+  padding: 5px 10px;
+}
+
+tr{
+}
+
+th:first-child, td:first-child{
+  width: 5%;
+  text-align: center;
 }
