@@ -114,3 +114,10 @@ th:first-child, td:first-child{
   width: 5%;
   text-align: center;
 }
+
+/*Styles for the error message if the input is invalid*/
+.error{
+  font-size: 2.5rem;
+  color: red;
+  text-align: center;
+}
