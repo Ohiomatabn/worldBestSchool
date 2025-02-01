@@ -90,7 +90,6 @@ a{
   overflow-y: scroll;
   scrollbar-width: none;
   scroll-behavior: smooth;
-  z-index: -1;
   transition: .5s;
 }
 
@@ -200,7 +199,7 @@ main{
   }
 
   .sidebar{
-    margin: -250px;
+    margin-left: -250px;
   }
 
   main{
@@ -210,6 +209,13 @@ main{
   .navbar .fa-bars{
     display: inline-block;
   }
+}
+
+.fa-times{
+  float: right;
+  font-size: 4rem;
+  color: var(--white);
+  padding: 10px;
 }
 
 @media (max-width: 450px) {
