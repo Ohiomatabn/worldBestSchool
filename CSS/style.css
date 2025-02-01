@@ -55,14 +55,19 @@ a{
 
 .divider{
   position: relative;
+  margin-top: 70px;
 }
 
 /*styles for the nabar*/
 .navbar{
   background-color: var(--primary-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
   color: var(--white);
   padding: 10px 0;
-  z-index: 10;
 }
 
 .navbar h2{
@@ -95,6 +100,14 @@ a{
 
 .sidebar ul li{
   padding: 10px;
+}
+
+.fa-times{
+  float: right;
+  font-size: 4rem;
+  color: var(--white);
+  padding: 10px;
+  display: none !important;
 }
 
 /* Styles for the profile image nested in sidebar*/
@@ -200,22 +213,16 @@ main{
 
   .sidebar{
     margin-left: -250px;
+    z-index: 100;
   }
 
   main{
     margin: 0;
   }
 
-  .navbar .fa-bars{
-    display: inline-block;
+  .navbar .fa-bars, .fa-times{
+    display: inline-block !important;
   }
-}
-
-.fa-times{
-  float: right;
-  font-size: 4rem;
-  color: var(--white);
-  padding: 10px;
 }
 
 @media (max-width: 450px) {
