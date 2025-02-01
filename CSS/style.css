@@ -91,6 +91,7 @@ a{
   scrollbar-width: none;
   scroll-behavior: smooth;
   z-index: -1;
+  transition: .5s;
 }
 
 .sidebar ul li{
@@ -199,7 +200,7 @@ main{
   }
 
   .sidebar{
-    display: none;
+    margin: -250px;
   }
 
   main{
