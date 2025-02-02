@@ -108,6 +108,7 @@ a{
   color: var(--white);
   padding: 10px;
   display: none !important;
+  cursor: pointer;
 }
 
 /* Styles for the profile image nested in sidebar*/
@@ -156,6 +157,7 @@ ul li a .fa{
 /*Styles for the main content*/
 main{
   margin-left: 250px;
+  margin-bottom: 20px;
 }
 
 /*Header*/
@@ -217,7 +219,7 @@ main{
   }
 
   main{
-    margin: 0;
+    margin-left: 0;
   }
 
   .navbar .fa-bars, .fa-times{
