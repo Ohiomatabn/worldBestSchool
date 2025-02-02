@@ -225,6 +225,10 @@ main{
   .navbar .fa-bars, .fa-times{
     display: inline-block !important;
   }
+
+  .current-date-time{
+    display: none;
+  }
 }
 
 @media (max-width: 450px) {
