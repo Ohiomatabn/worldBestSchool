@@ -22,7 +22,7 @@ input:focus{
 select{
   display: inline-block;
   clear: both;
-  width: 49.7%;
+  width: 45%;
   margin-top: 20px;
   padding: 10px;
   border: 1px solid var(--black);
