@@ -427,3 +427,12 @@ function showResult (){
 
 //Add an event listner to the check result button
 document.querySelector('.check-result').addEventListener('click', showResult);
+
+//Toggle for the side bar
+document.querySelector('.js-show').addEventListener('click', ()=>{
+  document.getElementById('js-sidebar').style.marginLeft = 0;
+});
+
+document.querySelector('.js-close').addEventListener('click', () =>{
+  document.getElementById('js-sidebar').style.marginLeft = '-250px'
+});
