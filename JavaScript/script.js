@@ -24,4 +24,4 @@ document.querySelector('.js-show').addEventListener('click', ()=>{
 
 document.querySelector('.js-close').addEventListener('click', () =>{
   document.getElementById('js-sidebar').style.marginLeft = '-250px'
-})
+});
