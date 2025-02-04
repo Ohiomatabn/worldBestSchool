@@ -107,9 +107,6 @@ td{
   padding: 5px 10px;
 }
 
-tr{
-}
-
 th:first-child, td:first-child{
   width: 5%;
   text-align: center;
