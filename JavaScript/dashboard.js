@@ -1,7 +1,7 @@
 export const dashboard = [{
   name: 'My Profile',
   image: 'my_profile.png',
-  url: '#'
+  url: '../HTML/profile.html'
 },{
   name: 'Fee Allocation',
   image: 'naira.png',
