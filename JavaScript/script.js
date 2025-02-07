@@ -1,4 +1,5 @@
 import { dashboard } from "./dashboard.js";
+import "./currentTime.js"
 
 
 //Rendering the dashboard HTML

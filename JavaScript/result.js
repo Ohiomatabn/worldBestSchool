@@ -1,4 +1,5 @@
 import { studentDetails } from "./resultDetails.js";
+import "./currentTime.js"
 
 function showResult (){
   //Get the value of the input field
